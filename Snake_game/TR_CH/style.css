@@ -1,0 +1,213 @@
+body 
+{
+    background-color: #333;
+}
+.gb 
+{
+    position: relative;
+    margin: 16px auto;
+    width: 720px;
+    height: 1200px;
+    padding-top: 6%;
+    background-color: #ccc;
+    border-radius: 20px;
+    border-bottom-right-radius: 80px;
+}
+.bsl 
+{
+    position: relative;
+    width: 92%;
+    height: 40%;
+    margin: 0 auto;
+    background-color: #aaa;
+    border-radius: 8px;
+    border-bottom-right-radius: 40px;
+}
+.disp 
+{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    top: 36px;
+    border: 4px solid black;
+    background-color: #b8e62e;
+}
+.msg 
+{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+}
+.msg-a, .msg-b 
+{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 4px 2px white;
+}
+.msg-a 
+{
+    height: 140px;
+    line-height: 140px;
+    font-size: 70px;
+}
+.msg-b 
+{
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+}
+.brand 
+{
+    width: 92%;
+    margin: 0 auto;
+    height: 72px;
+    line-height: 72px;
+    color: #1f3a93;
+    font-family: sans-serif;
+}
+.brand-n 
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.brand-gb 
+{
+    font-size: 44px;
+    font-style: italic;
+}
+.brand-tm 
+{
+    font-size: 20px;
+}
+.ctrl-1 
+{
+    position: relative;
+    height: 26%;
+    width: 90%;
+    padding: 3% 0;
+    margin: 0 auto;
+}
+.dir-btn 
+{
+    background-color: #333;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 160px;
+}
+.dir-btn:not(.center) 
+{
+    box-shadow: 4px 4px 0 #888;    
+}
+.dir-btn.center 
+{
+    left: 72px;
+}
+.dir-btn.right 
+{
+    left: 144px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.dir-btn.up 
+{
+    left: 72px;
+    top: 88px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.dir-btn.down 
+{
+    left: 72px;
+    top: 232px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.dir-btn.left 
+{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.a-btn 
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 146px;
+    border-radius: 50%;
+    background-color: #96281b;
+    box-shadow: 4px 4px 0 #888;
+}
+.a-btn.aa 
+{
+    margin-top: -32px;
+}
+.a-btn.bb 
+{
+    margin-top: 32px;
+    right: 136px;
+}
+.ctrl-2 
+{
+    position: relative;
+    height: 8%;
+    width: 90%;
+    padding: 1% 0;
+    margin: 0 auto;
+}
+.fn-btn 
+{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #aaa;
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    -ms-transform: rotate(-24deg); /* IE 9 */
+    -webkit-transform: rotate(-24deg); /* Chrome, Safari, Opera */
+    transform: rotate(-24deg);
+    box-shadow: 4px 4px 0 #888;
+}
+.fn-btn.left 
+{
+    margin-left: -120px;
+}
+.grills 
+{
+    position: relative;
+    height: 12%;
+    width: 90%;
+    padding: 1% 0;
+    margin: 0 auto;
+    top: 6%;
+    left: 1%;
+    -ms-transform: rotate(-24deg);
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+    
+}
+.grill 
+{
+    float: right;
+    height: 100%;
+    width: 16px;
+    margin-left: 16px;
+    border-radius: 8px;
+    background-color: #555;
+}
+.pixel
+{
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+.pixel.taken 
+{
+    background-color: blue;
+}
