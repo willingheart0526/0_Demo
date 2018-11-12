@@ -9,7 +9,7 @@ body
     width: 720px;
     height: 1200px;
     padding-top: 6%;
-    background-color: gray;
+    background-color: pink;
     border-radius: 20px;
     border-bottom-right-radius: 80px;
 }
@@ -19,7 +19,7 @@ body
     width: 92%;
     height: 40%;
     margin: 0 auto;
-    background-color: lightgray;
+    background-color: gray;
     border-radius: 8px;
     border-bottom-right-radius: 40px;
 }
@@ -66,7 +66,7 @@ body
     margin: 0 auto;
     height: 72px;
     line-height: 72px;
-    color: pink;
+    color: red;
     font-family: sans-serif;
 }
 .brand-n 
@@ -93,21 +93,22 @@ body
 }
 .dir-btn 
 {
-    background-color: #333;
+    background-color: black;
     width: 72px;
     height: 72px;
     position: absolute;
     top: 160px;
 }
 .dir-btn:not(.center) 
+
 {
-    box-shadow: 4px 4px 0 #888;    
+    box-shadow: 4px 6px 1px gray;    
 }
-.dir-btn.center 
+.dir-btn.center
 {
     left: 72px;
 }
-.dir-btn.right 
+.dir-btn.right
 {
     left: 144px;
     border-bottom-right-radius: 8px;
@@ -140,8 +141,8 @@ body
     right: 0;
     top: 146px;
     border-radius: 50%;
-    background-color: #96281b;
-    box-shadow: 4px 4px 0 #888;
+    background-color: darkred;
+    box-shadow: 4px 4px 0 gray;
 }
 .a-btn.aa 
 {
@@ -199,7 +200,7 @@ body
     width: 16px;
     margin-left: 16px;
     border-radius: 8px;
-    background-color: #555;
+    background-color: rgb(61, 61, 61);
 }
 .pixel
 {
